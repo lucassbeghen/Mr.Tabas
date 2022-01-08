@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image: url('../img/fundo.jpg');
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-img{
+    height: 72px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap:32px;
+}
+
+.link-menu{
+    font-family: 'Sarala', sans-serif;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.facebook{
+    height: 100px;
+}
+
+.instagram{
+    height: 100px;
+}
+
+.mercado-livre{
+    height: 100px;
+}
+
+.youtube{
+    height: 140px;
+}
+
+main{
+    border-top: 0.4px solid #fff2e7;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.rodape{
+    border-top: 0.4px solid #fff2e7;
+    padding: 32px;
+}
+
+.mrtabas{
+    height : 48px;
+    display: block;
+    margin : 0 auto;
+}
+
+.titulo-principal{
+    font-family: 'Sarala', sans-serif;
+    color: #fff2e7;
+    margin: 50px;
+}
+
+.botao-voltar:hover {
+    background-color: rgba(236,214,196,0.53);
+}
+
+.botao-voltar{
+    background-color: #ecd6c4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow : 4px 5px 4px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2f2325;
+    margin: 50px;
+}
